@@ -1,3 +1,2 @@
-const fetchWithTimeout = (delay) => {
-    return new Promise(resolve => setTimeout(resolve, delay));
-};
+export const fetchWithTimeout = (delay) =>
+  new Promise((resolve) => setTimeout(resolve, delay));
